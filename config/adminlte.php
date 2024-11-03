@@ -327,17 +327,22 @@ return [
         //     'label' => 4,
         //     'label_color' => 'success',
         // ],
-        // // ['header' => 'account_settings'],
-        // [
-        //     'text' => 'profile',
-        //     'url' => 'admin/settings',
-        //     'icon' => 'fas fa-fw fa-user',
-        // ],
-        // [
-        //     'text' => 'change_password',
-        //     'url' => 'admin/settings',
-        //     'icon' => 'fas fa-fw fa-lock',
-        // ],
+        ['header' => 'Administrativo'],
+        [
+            'text' => 'Roles',
+            'url' => 'roles',
+            'icon' => 'fas fa-user-tag',
+        ],
+        [
+            'text' => 'Permisos',
+            'url' => 'permissions',
+            'icon' => 'fas fa-user-check',
+        ],
+        [
+            'text' => 'Usuarios',
+            'url' => 'users',
+            'icon' => 'fas fa-users',
+        ],
         // [
         //     'text' => 'multilevel',
         //     'icon' => 'fas fa-fw fa-share',
